@@ -137,7 +137,7 @@ class _ChatScreenState extends State<ChatScreen> {
 
                   return Expanded(
                     child: ListView(
-                      reverse: true,
+                      // reverse: true,
                       padding: EdgeInsets.symmetric(
                           horizontal: 10.0, vertical: 20.0),
                       children: messagesWidgets,
